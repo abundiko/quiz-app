@@ -7,7 +7,7 @@ This app uses the GitHub Quiz API to get questions based on the user selected di
 To get started, clone the repository and install the dependencies:
 
 
-​```batch
+​```js
 git clone https://github.com/yourusername/github-quiz-app.git
 cd github-quiz-app
 npm install
@@ -17,7 +17,7 @@ npm install
 Once the dependencies are installed, you can run the app by typing the following command in the terminal:
 
 
-​```batch
+​```
 npm start
 ​```
 
