@@ -1,6 +1,6 @@
 # Quiz App
 
-This app uses the GitHub Quiz API to get questions based on the user selected difficulty. The user can then answer the questions and the app will track their correct and incorrect scores. The scores can be cleared at any time.
+This app uses the GitHub Quiz API to get questions based on the user selected difficulty. The user can then answer the questions, and the app will track their correct and incorrect scores. The scores can be cleared at any time.
 
 ## Getting Started
 
@@ -10,13 +10,13 @@ git clone https://github.com/yourusername/github-quiz-app.git
 cd github-quiz-app
 npm install
 ​
-Once the dependencies are installed, you can run the app by typing the following command in the terminal
+Once the dependencies are installed, you can run the app by typing the following command in the terminal:
 
 '''
 npm start
 ​'''
 
-The app will be served on port 3000. You can access it by opening the following URL in your browser: http://localhost:3000
+The app will be served on Port 3000. You can access it by opening the following URL in your browser: http://localhost:3000
 
 
 ​
@@ -38,4 +38,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-If you have any questions or feedback, please feel free to contact me at youremail@example.com.
+If you have any questions or feedback, please feel free to contact me at abundiko111@example.com or twitter.com/abundiko.
