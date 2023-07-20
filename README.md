@@ -7,29 +7,25 @@ This app uses the GitHub Quiz API to get questions based on the user selected di
 To get started, clone the repository and install the dependencies:
 
 
-​
+​```batch
 git clone https://github.com/yourusername/github-quiz-app.git
 cd github-quiz-app
 npm install
-​
+```​
 
 
 Once the dependencies are installed, you can run the app by typing the following command in the terminal:
 
 
-​
+​```batch
 npm start
+​```
+
+```batch
+The app will be served on port 3000. You can access it by opening the following URL in your browser: http://localhost:3000
+```
+
 ​
-
-
-The app will be served on port 3000. You can access it by opening the following URL in your browser:
-
-
-​
-http://localhost:3000
-​
-
-
 ## Usage
 
 The app is very simple to use. To start a quiz, click on the "Start Quiz" button. You will then be asked to select a difficulty level. Once you have selected a difficulty level, you will be presented with a series of questions.
