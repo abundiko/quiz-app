@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body class="bg-light">
+  <header
+    class="d-flex px-5 align-items-center justify-content-between py-2 bg-dark text-light position-fixed top-0 left-0 w-100">
+    <h5 class="fw-bold">Quiz App</h5>
+    <div class="d-flex">
+      <div class="rounded shadow bg-light text-dark text-center px-2 h-fit me-2">
+        <h6 class="text-success text-sm font-[500] m-0">Correct:</h6>
+        <h5 class="font-bold" id="correctCount">...</h5>
+      </div>
+      <div class="rounded shadow bg-light text-dark text-center px-2 h-fit me-2">
+        <h6 class="text-danger text-sm font-[500] m-0">Incorrect:</h6>
+        <h4 class="font-bold" id="wrongCount">...</h4>
+      </div>
+      <button class="btn btn-primary" id="resetButton">Reset</button>
+    </div>
+  </header>
+
+  <main class="main d-flex align-items-center justify-content-center ">
+
+    <!-- Select Difficulty -->
+    <div class="position-relative border rounded shadow bg-light p-2" id="mainContainer">
+      <div id="difficultyCard" class="w-100 h-100 p-4 position-absolute top-0 left-0">
+        <h5 class="fw-bold" id="question">Select Difficulty</h5>
+        <form action="">
+          <div id="options" class="d-flex flex-column mt-3">
+            <div class="d-flex my-1">
+              <input type="radio" name="difficultyRadio" id="easy" class="me-2" value="easy">
+              <label for="easy">Easy</label>
+            </div>
+            <div class="d-flex my-1">
+              <input type="radio" name="difficultyRadio" id="medium" class="me-2" value="medium">
+              <label for="medium">Medium</label>
+            </div>
+            <div class="d-flex my-1">
+              <input type="radio" name="difficultyRadio" id="hard" class="me-2" value="hard">
+              <label for="hard">Hard</label>
+            </div>
+          </div>
+          <div class="mt-3">
+            <input type="submit" value="Get Question" class="btn btn-primary">
+          </div>
+        </form>
+      </div>
+
+      <!-- Question Card -->
+      <div id="questionCard" class="d-none w-100 h-100 p-4 position-absolute top-0 left-0">
+        <h5 class="fw-bold" id="question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sapiente
+          inventore quas,
+          quam et asperiores molestias sequi harum reprehenderit odio?</h5>
+        <form action="">
+          <div id="options" class="d-flex flex-column mt-3">
+            <div class="d-flex my-1">
+              <input type="radio" name="h" id="hello" class="me-2" value="hello">
+              <label for="hello">Hello World</label>
+            </div>
+            <div class="d-flex my-1">
+              <input type="radio" name="h" id="hello1" class="me-2" value="hello1">
+              <label for="hello1">Hello World</label>
+            </div>
+            <div class="d-flex my-1">
+              <input type="radio" name="h" id="hello2" class="me-2" value="hello2">
+              <label for="hello2">Hello World</label>
+            </div>
+          </div>
+          <div class="mt-3">
+            <input type="submit" value="Submit" class="btn btn-primary">
+          </div>
+        </form>
+      </div>
+
+
+      <!-- After Answer -->
+      <div id="resultCard" class="d-none w-100 h-100 p-4 position-absolute top-0 left-0">
+        <div class="my-3" id="resultMain">
+
+        </div>
+        <button class="btn btn-primary" id="nextButton">Continue</button>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

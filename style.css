@@ -1,0 +1,43 @@
+:root {
+  --dark: #101010;
+  --light: #eee;
+  --primary: #4a0072;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+.bg-light {
+  background-color: var(--light);
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-dark {
+  color: var(--dark);
+}
+.text-light {
+  color: var(--light);
+}
+.text-primary {
+  color: var(--primary);
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+#mainContainer {
+  height: 80vh;
+  width: 80vw;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  #mainContainer {
+    height: 80vh;
+    width: 90vw;
+  }
+}
