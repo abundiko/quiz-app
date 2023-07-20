@@ -10,11 +10,11 @@ git clone https://github.com/yourusername/github-quiz-app.git
 cd github-quiz-app
 npm install
 ​
-Once the dependencies are installed, you can run the app by typing the following command in the terminal:
+Once the dependencies are installed, you can run the app by typing the following command in the terminal
 
-```
+'''
 npm start
-​```
+​'''
 
 The app will be served on port 3000. You can access it by opening the following URL in your browser: http://localhost:3000
 
